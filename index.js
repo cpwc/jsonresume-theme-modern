@@ -50,40 +50,40 @@ function render(resumeObject) {
 			w.endDateYear = w.endDate.substr(0,4);
 			switch ((w.endDate || "").substr(5,2)) {
 				case '01':
-					w.startDateMonth = "Jan";
+					w.endDateMonth = "Jan";
 					break;
 				case '02':
-					w.startDateMonth = "Feb";
+					w.endDateMonth = "Feb";
 					break;
 				case '03':
-					w.startDateMonth = "Mar";
+					w.endDateMonth = "Mar";
 					break;
 				case '04':
-					w.startDateMonth = "Apr";
+					w.endDateMonth = "Apr";
 					break;
 				case '05':
-					w.startDateMonth = "May";
+					w.endDateMonth = "May";
 					break;
 				case '06':
-					w.startDateMonth = "Jun";
+					w.endDateMonth = "Jun";
 					break;
 				case '07':
-					w.startDateMonth = "Jul";
+					w.endDateMonth = "Jul";
 					break;
 				case '08':
-					w.startDateMonth = "Aug";
+					w.endDateMonth = "Aug";
 					break;
 				case '09':
-					w.startDateMonth = "Sep";
+					w.endDateMonth = "Sep";
 					break;
 				case '10': 
-					w.startDateMonth = "Oct";
+					w.endDateMonth = "Oct";
 					break;
 				case '11':
-					w.startDateMonth = "Nov";
+					w.endDateMonth = "Nov";
 					break;
 				case '12':
-					w.startDateMonth = "Dec";
+					w.endDateMonth = "Dec";
 					break;
 			}
 		} else { 

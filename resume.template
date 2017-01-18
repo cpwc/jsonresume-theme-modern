@@ -58,7 +58,7 @@
             {{#work}}
             <h3>{{company}}</h3>
             <strong>{{position}}</strong>
-            <p>{{startDateYear}} - {{endDateYear}}</p>
+            <p>{{startDateMonth}} {{startDateYear}} - {{endDateMonth}} {{endDateYear}}</p>
             <p>{{summary}}</p>
             <ul>
               {{#highlights}}
